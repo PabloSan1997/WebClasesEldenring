@@ -1,0 +1,81 @@
+$azul:rgb(198, 198, 228);
+
+.claro{
+    color: black;
+    background: rgb(255, 246, 246);
+    header{
+        background: $azul; 
+        h1{
+    
+            color: rgb(4, 4, 56); 
+        }
+    }
+    .contenedor{
+        h2{
+            background: $azul;
+        }
+        .caja{
+            background: rgb(196, 250, 212);
+            border: 2px solid black; 
+            .tabla{
+                background: rgb(234, 245, 243);
+                tbody{
+    
+                    .tit{
+                        th{
+                            background: rgb(4, 4, 53); 
+                            color: white; 
+                            border: 1px solid black; 
+                        }
+                    }
+                    .cont{
+                        .numero{
+                            border: 1px solid black; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+$azul1:rgb(10, 2, 49);
+.obscuro{
+    color: rgb(208, 243, 243);
+    background: rgb(0, 0, 19);
+    header{
+        background: $azul1; 
+        h1{
+    
+            color: rgb(203, 203, 243); 
+        }
+    }
+    .contenedor{
+        h2{
+            background: $azul1;
+        }
+        .caja{
+            background: rgb(3, 6, 46);
+            border: 2px solid black; 
+            .tabla{
+                background: rgb(5, 39, 54);
+                tbody{
+    
+                    .tit{
+                        th{
+                            background: rgb(4, 12, 32); 
+                            color: white; 
+                            border: 1px solid black; 
+                        }
+                    }
+                    .cont{
+                        .numero{
+                            border: 1px solid black; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

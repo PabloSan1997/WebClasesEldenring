@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+}
+header h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto auto auto 40%;
+  font-weight: 100;
+  font-family: arial;
+}
+header .modos {
+  width: 30%;
+  height: 100%;
+  margin: auto 0 auto auto;
+  display: flex;
+}
+header .modos label {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 1.2rem;
+  margin: auto 5px auto auto;
+  font-family: arial;
+}
+header .modos input {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto auto auto 0;
+}
+
+.contenedor {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contenedor h2 {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: arial;
+  text-align: center;
+  margin: 2% auto 1px auto;
+}
+.contenedor .caja {
+  width: 31%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 1% auto;
+}
+.contenedor .caja img {
+  width: 90%;
+  height: 60%;
+  margin: 10px auto 0 auto;
+}
+.contenedor .caja .tabla {
+  width: 90%;
+  height: 10%;
+  margin: 5% auto 0 auto;
+  border-collapse: collapse;
+}
+.contenedor .caja .tabla tbody {
+  width: 100%;
+  height: 100%;
+}
+.contenedor .caja .tabla tbody .tit th {
+  font-size: 1rem;
+  padding: 1px;
+}
+.contenedor .caja .tabla tbody .cont .numero {
+  text-align: center;
+}
+.contenedor .caja p {
+  width: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px auto auto auto;
+  text-align: center;
+}/*# sourceMappingURL=estilos.css.map */

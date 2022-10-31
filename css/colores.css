@@ -1,0 +1,57 @@
+.claro {
+  color: black;
+  background: rgb(255, 246, 246);
+}
+.claro header {
+  background: rgb(198, 198, 228);
+}
+.claro header h1 {
+  color: rgb(4, 4, 56);
+}
+.claro .contenedor h2 {
+  background: rgb(198, 198, 228);
+}
+.claro .contenedor .caja {
+  background: rgb(196, 250, 212);
+  border: 2px solid black;
+}
+.claro .contenedor .caja .tabla {
+  background: rgb(234, 245, 243);
+}
+.claro .contenedor .caja .tabla tbody .tit th {
+  background: rgb(4, 4, 53);
+  color: white;
+  border: 1px solid black;
+}
+.claro .contenedor .caja .tabla tbody .cont .numero {
+  border: 1px solid black;
+}
+
+.obscuro {
+  color: rgb(208, 243, 243);
+  background: rgb(0, 0, 19);
+}
+.obscuro header {
+  background: rgb(10, 2, 49);
+}
+.obscuro header h1 {
+  color: rgb(203, 203, 243);
+}
+.obscuro .contenedor h2 {
+  background: rgb(10, 2, 49);
+}
+.obscuro .contenedor .caja {
+  background: rgb(3, 6, 46);
+  border: 2px solid black;
+}
+.obscuro .contenedor .caja .tabla {
+  background: rgb(5, 39, 54);
+}
+.obscuro .contenedor .caja .tabla tbody .tit th {
+  background: rgb(4, 12, 32);
+  color: white;
+  border: 1px solid black;
+}
+.obscuro .contenedor .caja .tabla tbody .cont .numero {
+  border: 1px solid black;
+}/*# sourceMappingURL=colores.css.map */

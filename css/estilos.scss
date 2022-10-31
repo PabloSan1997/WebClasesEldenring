@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    h1{
+        width: fit-content;
+        height: fit-content;
+        margin: auto auto auto 40%;
+        font-weight: 100;
+        font-family: arial;
+    }
+    .modos{
+        width: 30%;
+        height: 100%;
+        margin: auto 0 auto auto;
+        display: flex;
+        label{
+            width: fit-content;
+            height: fit-content;
+            font-size: 1.2rem;
+            margin: auto 5px auto auto;
+            font-family: arial;
+        }
+        input{
+            width: fit-content;
+            height: fit-content;
+            margin: auto auto auto 0;
+
+        }
+    }
+}
+.contenedor{
+    width: 95%;
+    margin:20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    h2{
+        width: 100%;
+        height: fit-content;
+        font-family: arial;
+        text-align: center;
+        margin: 2% auto 1px auto;
+    }
+    .caja{
+        width: 31%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin:1% auto;
+        img{
+            width: 90%;
+            height: 60%;
+            margin: 10px auto 0 auto;
+        }
+        .tabla{
+            width: 90%;
+            height: 10%;
+            margin: 5% auto 0 auto;
+            border-collapse: collapse;
+            tbody{
+                width: 100%;
+                height: 100%;
+                .tit{
+                    th{
+                        font-size: 1rem;
+                        padding: 1px;
+                    }
+                }
+                .cont{
+                    .numero{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        p{
+            width: 90%;
+            height: fit-content;
+            margin:10px auto auto auto;
+            text-align: center;
+        }
+    }
+}
